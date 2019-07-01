@@ -17,8 +17,8 @@ public class LoginPage {
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator3));
 		u.click(driver, locator3);
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator2));
-		Thread.sleep(10000);
 		//u.entervalue(driver, value[testCaseNo][1], locator2);
+		
 	}
 
 
